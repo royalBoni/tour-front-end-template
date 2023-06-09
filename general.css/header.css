@@ -1,0 +1,143 @@
+
+:root{
+    --green:rgb(34, 247, 34);
+}
+
+header{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+
+.brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.brand_color{
+    color: var(--green);
+}
+
+.hamburger{
+    display:none;
+    gap: 0.3rem;
+
+}
+
+.line{
+    width: 2rem;
+    height: 0.2rem;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    
+}
+
+nav a:last-child{
+    background-color: var(--green);
+    color: white;
+}
+
+
+nav a:last-child:hover{
+    background-color: rgb(250, 250, 250);
+    border: 1px solid var(--green);
+    color: black;
+}
+
+
+header a{
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border-radius: 50px;
+    display: grid;
+    place-content: center;
+}
+
+header a:hover{
+    background-color: var(--green);
+    
+}
+
+
+
+
+@media screen and (max-width:900px){
+
+    header a{
+        margin:10px;
+    }
+
+    .hamburger{
+        display: grid;
+    } 
+    
+    nav{
+        display: grid;
+        position: absolute;
+        top: 65px;
+        background-color: var(--green);
+        width: 100%;
+        place-content: center;
+        padding: 1rem;
+        text-align: center;
+        height: auto;
+        opacity: 0;
+        
+        
+    }
+
+    .nav_opacity{
+        opacity: 1;
+        animation-name: nav_animate;
+        animation-duration: 0.5s;
+        z-index: 1;
+        display: no;
+    }
+
+    header a:hover{
+        background-color: rgb(250, 250, 250);
+    }
+
+    nav a:last-child{
+        background-color: rgb(250, 250, 250);
+        color: black;
+    }
+    
+    
+    nav a:last-child:hover{
+        background-color:var(--green);
+        border: 1px solid rgb(250, 250, 250);
+        color: white;
+    }
+    
+    @keyframes nav_animate {
+        0%{
+            transform: translateX(200px);
+        }
+
+        
+    }
+
+    nav a{
+        display: none;
+    }
+
+    .a_display{
+        display: grid;
+    }
+}

@@ -1,0 +1,22 @@
+/* MAIN PAGE */
+.main_page_img{
+    transform: translateX(160px);
+    transform: scale(1.5);
+    
+    
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .main_page_img {
+      transition: opacity 3s ease-in, transform 1.5s ease;
+    }
+  }
+  
+  
+  .main_page_transition {
+      opacity: 1;
+      transform: none;
+  }
+
+
+  

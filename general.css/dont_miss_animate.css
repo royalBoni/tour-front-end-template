@@ -1,0 +1,15 @@
+.dont_miss{
+    transform: rotateX(180deg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .dont_miss{
+      transition: opacity 3s ease-in, transform 1.5s ease;
+    }
+  }
+  
+  
+  .main_page_transition {
+      opacity: 1;
+      transform: none;
+  }

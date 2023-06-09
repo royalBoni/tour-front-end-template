@@ -1,0 +1,28 @@
+/* OFFER */
+
+.card1{
+    transform: translateX(250px);
+
+}
+
+.card2{
+    transform: translateY(150px);
+
+}
+
+.card3{
+    transform: translateX(-250px);
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .card1,.card2,.card3 {
+      transition: opacity 3s ease-in, transform 1.5s ease;
+    }
+  }
+  
+  
+  .main_page_transition {
+      opacity: 1;
+      transform: none;
+  }

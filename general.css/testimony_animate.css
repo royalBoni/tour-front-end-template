@@ -1,0 +1,27 @@
+.test1{
+    transform: translateX(-250px);
+}
+
+.test2{
+    transform: translateX(250px);
+}
+
+.test3{
+    transform: translateY(250px);
+}
+
+.say_title{
+    transform: rotateX(180deg) translate(-100px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .test1,.test2,.test3, .say_title{
+      transition: opacity 3s ease-in, transform 1.5s ease;
+    }
+  }
+  
+  
+  .main_page_transition {
+      opacity: 1;
+      transform: none;
+  }

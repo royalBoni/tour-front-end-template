@@ -1,0 +1,31 @@
+.exp_img{
+    transform: translateY(150px);
+    
+    
+}
+
+.exp_message{
+    transform: translateX(150px);
+    
+    
+}
+
+
+.breakdown{
+    transform: rotate(360deg);
+    
+    
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .exp_img, .exp_message,.breakdown {
+      transition: opacity 3s ease-in, transform 1.5s ease;
+    }
+  }
+  
+  
+  .main_page_transition {
+      opacity: 1;
+      transform: none;
+  }
+

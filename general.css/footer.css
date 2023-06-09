@@ -1,0 +1,174 @@
+:root{
+    --green:rgb(34, 247, 34);
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer_content{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+footer ul{
+    list-style-type: none;
+    display: grid;
+    gap: 1rem;
+}
+
+form{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    box-shadow: 0px 2px 20px 10px rgb(202, 204, 202);
+}
+
+input{
+    height: inherit;
+    width: inherit;
+    border: none;
+    padding: 1rem;
+}
+
+footer button{
+    font-size: 1rem;
+    padding: 0.8rem;
+    color: white;
+    background-color: var(--green);
+    border: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.socials a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--green);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-content: center;
+    border-radius: 15px;
+}
+
+
+.socials a:hover{
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+}
+.content_cont{
+    display: grid;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:900px){
+
+    footer{
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 4rem;
+        
+    }
+
+
+    .footer_content{
+        place-content: center;
+    }
+
+    .title{
+        text-align: center;
+    }
+    
+    footer ul{
+        text-align: center;
+    }
+
+    .content_cont{
+        place-content: center;
+    }
+
+    .content_cont .me{
+        text-align: center;
+    }
+
+    .footer_content{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .socials{
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+
+    footer{
+        width: 100%;
+        display: grid;
+        place-content: center;
+        
+    }
+
+
+
+    form{
+        display: grid;
+        
+        gap: 1rem;
+        height: auto;
+        box-shadow: 0px 0px 0px 0px rgb(202, 204, 202);
+        
+    }
+
+   input{
+        height: auto;
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0px 2px 20px 10px rgb(202, 204, 202);
+        font-size: 1rem;
+   }
+
+   footer button{
+        font-size: 1rem;
+        padding: 0.8rem;
+        color: white;
+        background-color: var(--green);
+        border: none;
+        width: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      
+}
+
+
+
+
