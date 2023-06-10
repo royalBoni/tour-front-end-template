@@ -1,17 +1,17 @@
 .test1{
-    transform: translateX(-250px);
+    transform: translateX(-50px);
 }
 
 .test2{
-    transform: translateX(250px);
+    transform: translateX(50px);
 }
 
 .test3{
-    transform: translateY(250px);
+    transform: translateY(50px);
 }
 
 .say_title{
-    transform: rotateX(180deg) translate(-100px);
+    transform: rotateX(180deg) scale(0.5);
 }
 
 @media (prefers-reduced-motion: no-preference) {

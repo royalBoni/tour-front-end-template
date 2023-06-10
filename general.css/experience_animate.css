@@ -1,20 +1,14 @@
 .exp_img{
     transform: translateY(150px);
-    
-    
 }
 
 .exp_message{
-    transform: translateX(150px);
-    
-    
+    transform: scale(0.5);
 }
 
 
 .breakdown{
-    transform: rotate(360deg);
-    
-    
+    transform: rotate(180deg);  
 }
 
 @media (prefers-reduced-motion: no-preference) {
