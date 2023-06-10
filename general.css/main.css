@@ -126,10 +126,15 @@ main{
     border: none;
     height: 3rem;
     border-radius: 10px;
+    border: 1px solid var(--green) ;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 button:hover{
     background-color: transparent;
+    color: var(--green);
+    transition: all 1s;
 }
 
 
@@ -512,6 +517,10 @@ figure img{
     color: white;
 }
 
+.dont-miss-btn{
+    margin-top: 1rem;
+}
+
 
 .slideshow-container{
     display: none;
@@ -806,6 +815,14 @@ figure img{
     display: none;
 }
 
+.dont-miss-btn{
+    margin-top: 1rem;
+    width: auto;
+    margin-inline: auto;
+}
+
+}
+
 
 @media screen and (max-width:280px){
 
@@ -829,4 +846,4 @@ figure img{
 
  }
 
-}
+
