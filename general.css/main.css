@@ -85,12 +85,7 @@ main{
     line-height: 1.5rem;
 }
 
-.new_button{
-    display: none;
-}
-
 .red_star_3,.red_star_4,.red_star_5,.red_star_6,.red_star_7,.red_star_8{
-   
     position: absolute;
     color: red;
     font-size: 2.5rem;
@@ -124,15 +119,18 @@ main{
 
 }
 
-.details button{
+ button{
     color: white;
     background-color: var(--green);
     padding: 0.4rem;
     border: none;
     height: 3rem;
+    border-radius: 10px;
 }
 
-
+button:hover{
+    background-color: transparent;
+}
 
 
 /* OFFER */
@@ -514,22 +512,22 @@ figure img{
     color: white;
 }
 
-.dont_miss_cont button{
-    background-color: var(--green);
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    border: none;
-    color: white;
-    margin-top: 1rem;
-}
-
-.dont_miss_cont button:hover{
-    background-color: transparent;
-}
-
 
 .slideshow-container{
     display: none;
+}
+
+@media screen and (max-width:768px){
+
+    /* MAIN PAGE */
+
+    .details{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -570,27 +568,7 @@ figure img{
 
 
     .details{
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        gap: 4rem;
-        flex-wrap: wrap;
-    }
-
-    .details button{
-        display: none;
-    }
-
-    .new_button{
-        display: grid;
-        font-size: 1rem;
-        width: 8rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1rem;
-        color: white;
-        border: none;
-        background-color: var(--green);
+        gap: 1rem;
     }
 
     .main_page_img{
@@ -641,14 +619,6 @@ figure img{
         text-align: center;
     }
     
-    .dont_miss_cont button{
-        padding: 0.5rem;
-        border: none;
-        margin-top: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 
     .place{
         width: 100%;
