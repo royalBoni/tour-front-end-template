@@ -8,8 +8,6 @@ const observer = new IntersectionObserver(entries => {
       topic.classList.add('main_page_transition');
       return;
     }
-
-    topic.classList.remove('main_page_transition');
   });
 });
 
@@ -33,8 +31,6 @@ const observer1 = new IntersectionObserver(entries => {
             
           return;
         }
-    
-        place_1.classList.remove('main_page_transition');
         
       });
 },1000);
@@ -46,8 +42,6 @@ setTimeout(() => {
            
           return;
         }
-    
-        place_2.classList.remove('main_page_transition');
        
       });
 },1200);
@@ -59,8 +53,6 @@ setTimeout(() => {
            
           return;
         }
-    
-        place_3.classList.remove('main_page_transition');
        
       });
 },1500);
@@ -86,8 +78,6 @@ const observer2 = new IntersectionObserver(entries => {
             
           return;
         }
-    
-        place_4.classList.remove('main_page_transition');
         
       });
 },1000);
@@ -99,8 +89,6 @@ setTimeout(() => {
            
           return;
         }
-    
-        place_5.classList.remove('main_page_transition');
        
       });
 },1200);
@@ -112,8 +100,6 @@ setTimeout(() => {
            
           return;
         }
-    
-        place_6.classList.remove('main_page_transition');
        
       });
 },1500);

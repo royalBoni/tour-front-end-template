@@ -8,8 +8,6 @@ const observerr = new IntersectionObserver(entries => {
       square.classList.add('main_page_transition');
       return;
     }
-
-    square.classList.remove('main_page_transition');
   });
 });
 

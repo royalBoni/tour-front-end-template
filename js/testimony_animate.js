@@ -10,7 +10,6 @@ const observer_testimony = new IntersectionObserver(entries => {
       
       return;
     }
-    say_title.classList.remove('main_page_transition');
     
   });
 });
@@ -29,7 +28,6 @@ const observer_test1 = new IntersectionObserver(entries => {
       
       return;
     }
-    test_1.classList.remove('main_page_transition');
     
   });
 });
@@ -49,7 +47,7 @@ const observer_test2 = new IntersectionObserver(entries => {
       
       return;
     }
-    test_2.classList.remove('main_page_transition');
+    /* test_2.classList.remove('main_page_transition'); */
     
   });
 });
@@ -69,7 +67,6 @@ const observer_test3 = new IntersectionObserver(entries => {
       
       return;
     }
-    test_3.classList.remove('main_page_transition');
     
   });
 });

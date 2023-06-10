@@ -1,7 +1,6 @@
 /* MAIN PAGE */
 .main_page_img{
-    transform: translateX(160px);
-    transform: scale(1.5);
+    transform: scale(0.5);
     
     
 }

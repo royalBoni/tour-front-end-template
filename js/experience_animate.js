@@ -15,8 +15,6 @@ const observerr_exp_img = new IntersectionObserver(entries => {
       exp_img.classList.add('main_page_transition');
       return;
     }
-
-    exp_img.classList.remove('main_page_transition');
   });
 });
 
@@ -34,10 +32,9 @@ const observerr_exp_message = new IntersectionObserver(entries => {
         }
         return;
       }
-      exp_message.classList.remove('main_page_transition');
-      for(let i =0; i<breakdown.length; i++){
+     /*  for(let i =0; i<breakdown.length; i++){
         breakdown[i].classList.remove('main_page_transition');
-    }
+    } */
     });
   });
   

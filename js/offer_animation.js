@@ -14,10 +14,6 @@ const observer_offer = new IntersectionObserver(entries => {
       card3.classList.add('main_page_transition');
       return;
     }
-
-    card1.classList.remove('main_page_transition');
-    card2.classList.remove('main_page_transition');
-    card3.classList.remove('main_page_transition');
   });
 });
 
