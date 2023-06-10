@@ -8,8 +8,6 @@ const observerr_dont_miss = new IntersectionObserver(entries => {
       dont_miss.classList.add('main_page_transition');
       return;
     }
-
-    dont_miss.classList.remove('main_page_transition');
   });
 });
 

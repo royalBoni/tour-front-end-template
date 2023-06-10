@@ -1,18 +1,18 @@
 .f_1{
-    transform: translateX(-150px);
+    transform: translateX(-50px);
 }
 
 .f_2{
-  transform: translateY(150px);
+  transform: translateY(50px);
 }
 
 .f_3{
-  transform: translateX(150px);
+  transform: translateX(50px);
 }
 
 .f_4{
 
-  transform: scale(1.5);
+  transform: scale(0.5);
 }
 
 @media (prefers-reduced-motion: no-preference) {

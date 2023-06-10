@@ -1,17 +1,17 @@
 /* OFFER */
 
 .card1{
-    transform: translateX(100px);
+    transform: translateX(50px);
 
 }
 
 .card2{
-    transform: translateY(150px);
+    transform: translateY(50px);
 
 }
 
 .card3{
-    transform: translateX(-100px);
+    transform: translateX(-50px);
 
 }
 
