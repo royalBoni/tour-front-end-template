@@ -496,7 +496,7 @@ figure img{
 .dont_miss{
     margin-top: 4rem;
     margin-bottom: 4rem;
-    background-image: url("/tour/img/dont.jpg");
+    background-image: url('/img/dont-img.jpg');
     height:auto;
     background-size: 100% 100%;;
     background-repeat: no-repeat;
