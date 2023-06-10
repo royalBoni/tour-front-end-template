@@ -1,5 +1,5 @@
 .topic{
-    transform: translateX(100px);
+    transform: scale(0.5);
 }
 
 @media (prefers-reduced-motion: no-preference) {

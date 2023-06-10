@@ -10,7 +10,6 @@ const observer_f_1 = new IntersectionObserver(entries => {
       
       return;
     }
-    f_1.classList.remove('main_page_transition');
     
   });
 });
@@ -30,7 +29,6 @@ const observer_f_2 = new IntersectionObserver(entries => {
       
       return;
     }
-    f_2.classList.remove('main_page_transition');
     
   });
 });
@@ -50,7 +48,6 @@ const observer_f_3 = new IntersectionObserver(entries => {
       
       return;
     }
-    f_3.classList.remove('main_page_transition');
     
   });
 });
@@ -70,7 +67,7 @@ const observer_f_4 = new IntersectionObserver(entries => {
       
       return;
     }
-    f_4.classList.remove('main_page_transition');
+    /* f_4.classList.remove('main_page_transition'); */
     
   });
 });
